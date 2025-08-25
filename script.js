@@ -1,12 +1,16 @@
 const login = document.querySelector(".login");
 const second = document.querySelector(".second");
 const wait = document.querySelector(".wait")
+const part1 = document.querySelector(".part1")
+const part2 = document.querySelector(".part2")
 function check(e){
     var user = document.querySelector(".user").value;
     var email = document.querySelector(".email").value;
     if(user.length !=0 && email!= ""){
         console.log("Sucess");
         alert("Success!");
+        document.querySelector(".part1").style.display = "none"
+        document.querySelector(".part2").style.display = "none"
         second.classList.add("art")
         var user2 = document.querySelector(".user").value;
         let split_user2 = user2.split(" ");

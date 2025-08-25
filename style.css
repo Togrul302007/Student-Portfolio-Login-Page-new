@@ -3,6 +3,9 @@ body{
     flex-direction: row;
     box-sizing: border-box;
     overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
     height: 100vh;
 }
 .part1{
@@ -549,8 +552,9 @@ header{
         @media (max-width:1024px){
             body{
                 flex-direction: column-reverse;
-                height: 100vh;
-                /* overflow-y: scroll; */
+                /* height: 100vh;    */
+                overflow-y: hidden;
+                overflow-x: hidden;
             }
             .inner_part1{
                 transform: scale(.8);

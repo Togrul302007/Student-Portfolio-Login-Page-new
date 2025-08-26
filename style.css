@@ -643,4 +643,8 @@ header{
                 top: 20px;
                 right: 10px;
             }
+            .image{
+                width: 380px;
+                margin-right: 10px;
+            }
         }

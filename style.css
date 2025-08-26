@@ -86,6 +86,7 @@ body{
 }
 .inner_part1 input::placeholder{
     font-size: 15px;
+    color: #b6b6b6b2;
 }
 .inner_part1 input:focus {
     outline: none;
@@ -570,6 +571,9 @@ header{
             .inner_part2{
                 transform: scale(.7);
             }
+            .k2{
+                margin-top: 5px;
+            }
             .part1-1{
                 align-items: start;
                 box-shadow: none;
@@ -586,12 +590,21 @@ header{
                 justify-content: center;
                 align-items: end;
             }
+            .inner_part1 input::placeholder{
+                font-size: 16px;
+            }
+            .inner_part1 input{
+                font-size: 16px;
+            }
             .image{
-                margin-top: 20px;
+                margin-top: 10px;
             }
             .diller{
                 font-size: 12px;
-                bottom: 10px;
+                bottom: 20px;
+            }
+            .yazii{
+                margin-top: 20px;
             }
         }
         @media(max-width:760px){

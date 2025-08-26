@@ -179,7 +179,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     /* margin: auto; */
     background-position: 50% 60%;
     position: absolute;
@@ -564,6 +564,9 @@ header{
                 transform: scale(1);
                 
             }
+            .iceri1{
+                margin-left: 9px;
+            }
             .inner_second p{
                 /* width: 700px; */
                 font-size: 70px;
@@ -577,6 +580,14 @@ header{
             .part1-1{
                 align-items: start;
                 box-shadow: none;
+                border-radius:0px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+            .part2-2{
+                border-radius:0px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
             }
             .part1{
                 width: 100vw;
@@ -615,5 +626,9 @@ header{
         @media(max-width:425px){
             .inner_second p{
                 font-size: 40px;
+            }
+            .diller{
+                top: 20px;
+                right: 10px;
             }
         }

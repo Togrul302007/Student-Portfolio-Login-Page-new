@@ -2,7 +2,6 @@ body{
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    overflow-y: hidden;
     overflow-x: hidden;
     padding: 0px;
     margin: 0px;

@@ -187,10 +187,22 @@ body{
     display: none;
     overflow-x: hidden;
 }
-/* .inner_second{
-    width: 700px;
-    margin: auto;
-} */
+.inner_second{
+    animation-name: light1;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+}
+@keyframes light1{
+    from{
+        filter: drop-shadow(2px 2px 3px rgba(255, 255, 255, 0.212));
+    }
+    to{
+        filter: drop-shadow(2px 2px 3px white);
+    }
+}
 header{
     display: flex;
     flex-direction: row;
